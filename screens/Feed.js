@@ -13,8 +13,8 @@ export default class Feed extends React.Component{
         return(
             <View style={styles.viewStyle}>
                 <View style={styles.title}>
-                <Image source={require('../assets/logo.png')} style={{'width':50, 'height':50, 'margin':20, backgroundColor:'#BCA6C4'}}/>
-                <Text style={{color:'white', fontSize:'xxx-large', fontFamily:'Georgia'}}>
+                <Image source={require('../assets/logo.png')} style={{'width':30, 'height':30, 'margin':20, backgroundColor:'#BCA6C4'}}/>
+                <Text style={{color:'white', fontSize:'x-large', fontFamily:'Georgia'}}>
                     Spectagram
                 </Text>
                 </View>
